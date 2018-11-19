@@ -1,3 +1,4 @@
+
 class TodoList extends React.Component {
 
     static propTypes = {
@@ -80,5 +81,3 @@ class TodoList extends React.Component {
     <TodoList todos={['red','blue']} />,    
     document.getElementById('container')
   );
-  /* The beginning of the story. Render the 
-     TodoList element in the browser with the initial array. */
